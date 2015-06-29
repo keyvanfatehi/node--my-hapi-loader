@@ -1,6 +1,6 @@
 {
   "name": "my-hapi-server",
-  "version": "1.0.1",
+  "version": "1.2.0",
   "description": "Create, configure, require and load scripts, strategies, routes, and return a Hapi server",
   "main": "index.js",
   "scripts": {
@@ -23,6 +23,7 @@
   },
   "homepage": "https://github.com/keyvanfatehi/node--my-hapi-server",
   "dependencies": {
+    "bluebird": "^2.9.30",
     "hapi": "^8.6.1",
     "my-loader": "^1.0.2"
   }

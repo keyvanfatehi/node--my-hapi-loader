@@ -31,5 +31,7 @@ module.exports = require('my-hapi-server')(__dirname+'/src', {
       leaf: function(i) { return i.register; }
     }
   }
+}).then(function(server) {
+  server.start();
 })
 ```
