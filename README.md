@@ -1,6 +1,8 @@
 # my-hapi-server
 Create, configure, require and load scripts, strategies, routes, and return a Hapi server
 
+Uses [my-loader](https://github.com/keyvanfatehi/node--my-loader) under the hood.
+
 ## Example
 
 
