@@ -1,0 +1,29 @@
+{
+  "name": "my-hapi-server",
+  "version": "1.0.0",
+  "description": "Create, configure, require and load scripts, strategies, routes, and return a Hapi server",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/keyvanfatehi/node--my-hapi-server.git"
+  },
+  "keywords": [
+    "hapi",
+    "server",
+    "glob",
+    "my-server"
+  ],
+  "author": "Keyvan Fatehi <keyvanfatehi@gmail.com>",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/keyvanfatehi/node--my-hapi-server/issues"
+  },
+  "homepage": "https://github.com/keyvanfatehi/node--my-hapi-server",
+  "dependencies": {
+    "hapi": "^8.6.1",
+    "my-loader": "^1.0.1"
+  }
+}
